@@ -7,7 +7,7 @@
 body {
     background-image: url(/resource/background.jpg);
     background-size: cover;
-    padding-bottom: 170px;
+    padding-bottom: 158px;
 }
 
 
@@ -27,7 +27,7 @@ body {
 .navbar ul {
     display: flex;
     list-style: none;
-    margin-right: auto;
+    margin-left: auto;
 }
 
 .navbar ul li {
@@ -41,7 +41,7 @@ body {
 .navbar ul li:hover {
     font-size: 19px;
     color: rgb(10, 1, 133);
-    margin-top: -3px;
+    margin-top: -2px;
 }
 
 .navbar-search-field {
@@ -50,8 +50,9 @@ body {
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     padding: 8px 10px;
+    margin-left: 45px;
     border-radius: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
     transition: ease-in-out 300ms;
 
 
@@ -60,6 +61,7 @@ body {
 
 
 .navbar-search-field input {
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
     border: none;
@@ -71,8 +73,11 @@ body {
 }
 
 /* three dot icon */
-.material-symbols-rounded {
+.fa-ellipsis-vertical {
     font-weight: 900;
+    margin-left: 30px;
+    margin-right: 35px;
+    font-size: 30px;
 }
 
 .main {
@@ -82,7 +87,7 @@ body {
 
 .title-section {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 140px;
+    margin-left: 155px;
     margin-top: 160px;
     width: 360px;
 }
@@ -113,7 +118,7 @@ body {
     background-color: transparent;
     border-radius: 20px;
     border: 1px solid white;
-    padding: 10px 15px;
+    padding: 10px 30px;
 
 }
 
@@ -129,18 +134,18 @@ body {
 
 .middle-body-text {
     position: relative;
-    margin-top: 100px;
-    margin-left: 700px;
+    margin-top: 118px;
+    margin-left: 735px;
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     font-family: 'Nunito', sans-serif;
     font-style: italic;
     font-weight: 600;
 }
 
 .shapes {
-    margin-top: 350px;
-    margin-left: 120px;
+    margin-top: 300px;
+    margin-left: 135px;
     display: flex;
 }
 
@@ -160,4 +165,28 @@ body {
 .shapes div:hover {
     background-color: rgb(255, 255, 255);
     border: 12px solid rgb(255, 255, 255);
+}
+
+
+
+/* social icon */
+.social-icon {
+    float: right;
+    margin-top: -50px;
+}
+
+.social-icon div {
+    background-color: #0adab9;
+    border: 8px solid #0adab9;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    margin-right: 28px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icon div:hover {
+    border: 8px solid #07bb9d;
+    transition: ease-in-out 200ms;
 }

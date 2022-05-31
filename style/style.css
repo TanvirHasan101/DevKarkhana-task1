@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 24px 32px;
+    padding: 20px 32px;
     background-color: white;
 }
 
@@ -59,16 +59,64 @@ body {
 
 /* three dot icon */
 .material-symbols-rounded {
-    font-weight: bolder;
+    font-weight: 900;
+}
+
+.main {
+    position: absolute;
+    color: white;
 }
 
 .title-section {
-    color: white;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 140px;
+    margin-top: 180px;
+    width: 360px;
 }
 
 .title-section h2 {
     color: #0adab9;
+    font-size: 24px;
+
 }
 
-.title-section h1 {}
+.title-section h1 {
+    font-size: 48px;
+}
+
+.title-section p {
+    margin-top: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title-section button {
+
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 15px;
+
+}
+
+.title-section button:hover {
+    background-color: rgba(0, 0, 0, 0.222);
+
+}
+
+
+
+.middle-body-text {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 700px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}

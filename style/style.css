@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./resource/background.jpg");
+    background-image: url("../resource/background.jpg");
     background-size: cover;
     padding-bottom: 158px;
 }
